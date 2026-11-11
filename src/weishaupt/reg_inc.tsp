@@ -952,15 +952,15 @@ namespace register {
 
    /**[WCRC] Heating Program3 Monday 1 To/From */
    @wcrc(0x10, 0x16)
-   model HCRuntimeProgram3Mo1 is cal;
+   model HCRuntimeProgram3Mo1 is heatingInterval;
 
    /**[WCRC] Heating Program3 Monday 2 To/From */
    @wcrc(0x11, 0x16)
-   model HCRuntimeProgram3Mo2 is cal;
+   model HCRuntimeProgram3Mo2 is heatingInterval;
 
    /**[WCRC] Heating Program3 Monday 3 To/From */
    @wcrc(0x12, 0x16)
-   model HCRuntimeProgram3Mo3 is cal;
+   model HCRuntimeProgram3Mo3 is heatingInterval;
 
    /**[WCRC] Heating Program3 Tuesday 1 To/From */
    @wcrc(0x20, 0x16)
