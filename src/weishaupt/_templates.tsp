@@ -137,6 +137,13 @@ disabled:BI7,
 time:TTQ
 }
 
+/** Heating program interval: end and start in 15-minute units */
+@inherit(regr, regw)
+model heatingInterval {
+  endQuarter: UCH;
+  startQuarter: UCH;
+}
+
 /** outside temperature */
 @unit("°C")
 @divisor(10)
